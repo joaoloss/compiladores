@@ -1,0 +1,18 @@
+line 7:8 token recognition error at: '_'
+line 9:4 token recognition error at: '_'
+[@0,0:64='{ Sample program in EZ language -\n  Program with lexical errors\n}',<COMMENT>,1:0]
+[@1,67:73='program',<'program'>,5:0]
+[@2,75:77='err',<ID>,5:8]
+[@3,78:78=';',<';'>,5:11]
+[@4,80:82='var',<'var'>,6:0]
+[@5,88:90='int',<'int'>,7:4]
+[@6,93:93='x',<ID>,7:9]
+[@7,94:94=';',<';'>,7:10]
+[@8,96:140='{ LEXICAL ERROR: IDs can't have underscores }',<COMMENT>,7:12]
+[@9,142:146='begin',<'begin'>,8:0]
+[@10,153:153='x',<ID>,9:5]
+[@11,155:156=':=',<':='>,9:7]
+[@12,158:159='42',<POS_INT>,9:10]
+[@13,160:160=';',<';'>,9:12]
+[@14,162:164='end',<'end'>,10:0]
+[@15,166:165='<EOF>',<EOF>,11:0]
