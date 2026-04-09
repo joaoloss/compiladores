@@ -1,0 +1,2 @@
+line 9:6 mismatched input '=' expecting ':='
+(program program err ; (vars_sect var (var_decl (type_spec int) x ;)) (stmt_sect begin (stmt (assign_stmt x = 2 ;)) end))

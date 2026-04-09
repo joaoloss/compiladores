@@ -1,0 +1,1 @@
+(program program err ; (vars_sect var) (stmt_sect begin (stmt (if_stmt if (expr (mult_div_expr (operands 42))) then (stmt (write_stmt write (expr (mult_div_expr (operands "The answer!\n"))) ;)) end)) end))

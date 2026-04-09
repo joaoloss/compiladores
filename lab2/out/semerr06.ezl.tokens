@@ -1,0 +1,1 @@
+(program program err ; (vars_sect var (var_decl (type_spec string) s ;) (var_decl (type_spec bool) b ;)) (stmt_sect begin (stmt (assign_stmt s := (expr (expr (mult_div_expr (operands "valid: "))) (op +) (expr (mult_div_expr (operands false)))) ;)) (stmt (assign_stmt b := (expr (expr (mult_div_expr (operands b))) (op <) (expr (mult_div_expr (operands s)))) ;)) end))

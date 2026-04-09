@@ -1,0 +1,2 @@
+line 14:0 extraneous input '<EOF>' expecting {'end', 'if', 'read', 'repeat', 'write', ID}
+(program program err ; (vars_sect var (var_decl (type_spec int) x ;)) (stmt_sect begin (stmt (read_stmt read x ;)) (stmt (if_stmt if (expr (expr (mult_div_expr (operands x))) (op =) (expr (mult_div_expr (operands 2)))) then (stmt (write_stmt write (expr (mult_div_expr (operands x))) ;)) (stmt (write_stmt write (expr (mult_div_expr (operands 0))) ;)) end)) <missing 'end'>))

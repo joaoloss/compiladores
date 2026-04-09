@@ -1,0 +1,1 @@
+(program program addone ; (vars_sect var (var_decl (type_spec int) x ;)) (stmt_sect begin (stmt (read_stmt read x ;)) (stmt (assign_stmt x := (expr (expr (mult_div_expr (operands x))) (op +) (expr (mult_div_expr (operands 1)))) ;)) (stmt (write_stmt write (expr (mult_div_expr (operands x))) ;)) end))

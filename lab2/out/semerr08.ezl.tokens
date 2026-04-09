@@ -1,0 +1,1 @@
+(program program err ; (vars_sect var) (stmt_sect begin (stmt (repeat_stmt repeat (stmt (write_stmt write (expr (mult_div_expr (operands "Looooop!\n"))) ;)) until (expr (mult_div_expr (operands "forever"))))) end))

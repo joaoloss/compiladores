@@ -1,0 +1,1 @@
+(program program hello ; (vars_sect var) (stmt_sect begin (stmt (write_stmt write (expr (mult_div_expr (operands "Hello, world!\n"))) ;)) end))

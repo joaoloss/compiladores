@@ -1,0 +1,1 @@
+(program program err ; (vars_sect var (var_decl (type_spec int) x ;)) (stmt_sect begin (stmt (assign_stmt x := (expr (expr (mult_div_expr (operands "x = "))) (op +) (expr (mult_div_expr (operands 42)))) ;)) end))

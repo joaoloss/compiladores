@@ -1,0 +1,9 @@
+program test;
+var
+    int x;
+begin
+    x := (3 + 2) * 10;
+    y := 3 + 2 * 10;
+    write x;
+    write y;
+end

@@ -1,0 +1,3 @@
+line 9:10 token recognition error at: ','
+line 9:11 extraneous input '2' expecting ';'
+(program program err ; (vars_sect var (var_decl (type_spec real) x ;)) (stmt_sect begin (stmt (assign_stmt x := (expr (mult_div_expr (operands 4))) 2 ;)) end))
